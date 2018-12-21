@@ -6,8 +6,9 @@
 --   status   VARCHAR(255),
 --   PRIMARY KEY (id)
 --);
-INSERT INTO user_tab(username,password,status) VALUES ('naimtamboli','pass1','activated');
+INSERT INTO user_tab(username,password,status) VALUES ('harold finch','pass1','activated');
 INSERT INTO user_tab(username,password,status) VALUES ('jack sparrow','pass1','activated');
 INSERT INTO user_tab(username,password,status) VALUES ('tony stark','pass1','deactivated');
+INSERT INTO user_tab(username,password,status) VALUES ('john reese','pass1','deactivated');
 
 SELECT * FROM user_tab;

@@ -20,7 +20,7 @@ DB user interface console = http://localhost:9090/dbconsole
 ********************************************************************
 Application setup
 ********************************************************************
-1. Unzip or load the code from Git repo and run "mvn install" command.
+1. Unzip or load the code from Git repo (https://github.com/naimtamboli/nst_repo.git) and run "mvn install" command.
 2. Run the UserApplication.java with "Run as java application" option.
 3. Open the DB UI console with above mentioned URL and run the commands in 'data.sql' file. Note that CREATE command needs to be run only once intially and to be commented after that.
 4. Access the app login page with the above mentioned app URL.
@@ -37,3 +37,5 @@ Coding standards not implemented for this exercise
 ********************************************************************
 1. Loggers
 2. Interface/Impl implementations for service and dao layers.
+3. Form validations for UI
+4. Page redirection after update and delete user calls. So after update and delete operations navigate to '/user' url

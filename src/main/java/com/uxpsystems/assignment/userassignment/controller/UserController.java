@@ -81,6 +81,12 @@ public class UserController {
 			result) {
 		userService.updateUser(updateUser);
 	}
+	@DeleteMapping("/user/{id}")
+	public void deleteUser(@PathVariable Long id) {
+		userService.deleteUser(id);
+		
+	}
+}
     
     
 	
@@ -121,5 +127,5 @@ public class UserController {
 //			userService.deleteUser(id);
 //			
 //		}
-	}
-	
+//	}
+//	

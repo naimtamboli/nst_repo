@@ -19,7 +19,7 @@
 			</div>
 
 			<div class="row text-center">
-				<strong> User Details</strong>
+				<h3><strong> User Details</strong></h3>
 			</div>
 			<div class="row"
 				style="border: 1px solid green; padding: 10px; background-color: green;">
@@ -42,8 +42,8 @@
 					<div class="col-md-3 text-center">${user.username}</div>
 					<div class="col-md-3 text-center">${user.status}</div>
 					<div class="col-md-3 text-center">
-						<a href="updateuser/${user.id}">Edit </a><a
-							href="deleteuser/${user.id}">Delete</a>
+						<a href="updateuser/${user.id}">Edit |</a><a
+							href="deleteuser/${user.id}">| Delete</a>
 					</div>
 				</div>
 			</c:forEach>

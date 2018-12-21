@@ -13,24 +13,7 @@
   <form:form method="DELETE" action="/user/${id}">
       <table>
       Submit User id: ${id} for delete?
-      <%-- <tr>
-           <td><form:label path="id">User Id:</form:label></td>
-           <td><form:input path="id" value="${id}"/></td>
-       </tr> --%>
-       <%-- <tr>
-           <td><form:label path="username">User Name:</form:label></td>
-           <td><form:input path="username" type="text"/></td>
-       </tr>
-       <tr>
-           <td><form:label path="password">Password</form:label></td>
-           <td><form:input path="password" type="text"/></td>
-       </tr>
-       <tr>
-           <td><form:label path="status">Status:</form:label></td>
-           <td><form:input path="status" type="text"/></td>
-       </tr>
-        --%>
-      
+         
           <tr>
          <td colspan="2"><input type="submit" value="Submit"/></td>
         </tr>

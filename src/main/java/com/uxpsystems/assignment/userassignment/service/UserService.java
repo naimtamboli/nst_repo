@@ -38,14 +38,4 @@ public class UserService {
     	userDao.deleteUser(id);
     } 
 	
-	/*public List<User> retrieveUsers() {
-		List<User> userList = userDao.retrieveUsers();
-		return userList;
-	}
-
-	public User retrieveUser(String userId) {
-		User user = userDao.retrieveUser(userId);
-		return user;
-	}*/
-
 }
